@@ -1,0 +1,104 @@
+<EasyInstall>
+    <Name>MWRState</Name>
+    <Author>me</Author>
+	<Version>1.0.0</Version>
+	<Metadata></Metadata>
+	<Addons>
+		<Addon name="custom_peds">
+			<StreamingFiles>peds/models</StreamingFiles>
+			<DataFiles>peds</DataFiles>
+		</Addon>
+	</Addons>
+    <Replacements>
+        <Replacement name="DataOverwrites">
+
+            <FileReplacement>
+                <GamePath>update:/common/data/dispatch.meta</GamePath>
+                <FilePath>data/dispatch.meta</FilePath>
+            </FileReplacement>
+
+            <FileReplacement>
+                <GamePath>update:/common/data/taskdata.meta</GamePath>
+                <FilePath>data/taskdata.meta</FilePath>
+            </FileReplacement>
+
+            <FileReplacement>
+                <GamePath>update:/common/data/relationships.dat</GamePath>
+                <FilePath>data/relationships.dat</FilePath>
+            </FileReplacement>
+
+            <FileReplacement>
+                <GamePath>update:/x64/data/tune/combattasks.ymt</GamePath>
+                <FilePath>data/combattasks.ymt</FilePath>
+            </FileReplacement>
+
+	<!-- common/ai -->
+
+            <FileReplacement>
+                <GamePath>update:/common/data/ai/pedaccuracy.meta</GamePath>
+                <FilePath>data/ai/pedaccuracy.meta</FilePath>
+            </FileReplacement>
+
+            <FileReplacement>
+                <GamePath>update:/common/data/ai/combatbehaviour.meta</GamePath>
+                <FilePath>data/ai/combatbehaviour.meta</FilePath>
+            </FileReplacement>
+
+            <FileReplacement>
+                <GamePath>update:/common/data/ai/loadouts.meta</GamePath>
+                <FilePath>data/ai/loadouts.meta</FilePath>
+            </FileReplacement>
+
+            <FileReplacement>
+                <GamePath>update:/common/data/ai/ambientpedmodelsets.meta</GamePath>
+                <FilePath>data/ai/ambientpedmodelsets.meta</FilePath>
+            </FileReplacement>
+
+            <FileReplacement>
+                <GamePath>update:/common/data/ai/vehiclemodelsets.meta</GamePath>
+                <FilePath>data/ai/vehiclemodelsets.meta</FilePath>
+            </FileReplacement>
+
+	<!-- levels/gta5 -->
+
+            <FileReplacement>
+                <GamePath>update:/common/data/levels/gta5/popcycle.dat</GamePath>
+                <FilePath>data/levels/gta5/popcycle.dat</FilePath>
+            </FileReplacement>
+
+            <FileReplacement>
+                <GamePath>update:/x64/levels/gta5/popgroups.ymt</GamePath>
+                <FilePath>data/levels/gta5/popgroups.ymt</FilePath>
+            </FileReplacement>
+
+            <FileReplacement>
+                <GamePath>update:/common/data/levels/gta5/vehicles.meta</GamePath>
+                <FilePath>data/levels/gta5/vehicles.meta</FilePath>
+            </FileReplacement>
+			
+        </Replacement>
+
+	<Replacement name="VanillaOverrides">
+		<FileReplacements>replace/peds</FileReplacements>
+	</Replacement>
+
+	<Replacement name="ScenarioOverrides">
+            <FileReplacement>
+                <GamePath>x64a:/levels/gta5/scenario/hawick.ymt</GamePath>
+                <FilePath>scenarios/hawick.ymt</FilePath>
+            </FileReplacement>
+
+            <FileReplacement>
+                <GamePath>x64a:/levels/gta5/scenario/burton.ymt</GamePath>
+                <FilePath>scenarios/burton.ymt</FilePath>
+            </FileReplacement>
+
+            <FileReplacement>
+                <GamePath>x64a:/levels/gta5/scenario/little_seoul_metro.ymt</GamePath>
+                <FilePath>scenarios/little_seoul_metro.ymt</FilePath>
+            </FileReplacement>
+
+	</Replacement>
+
+    </Replacements>
+</EasyInstall>
